@@ -1,7 +1,4 @@
-; Kennan French, Maxim Zaman, Assignment 18
-
-;(load "~/plc/chez-init.ss")
-(load "C:/Users/frenchkt/Documents/School/Rose/Junior/Q3/CSSE304/Homework/chez-init.ss")
+(load "./chez-init.ss")
 
 (define-datatype expression expression?
   [lit-exp (value always?)]
